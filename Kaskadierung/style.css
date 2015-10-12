@@ -1,0 +1,12 @@
+div{
+    background-color: lightblue;
+}
+div>div{
+    background-color: lightgreen;
+}
+div>div>div{
+    background-color: lightcoral;
+}
+div>div>div>div{
+    background-color: yellow;
+}
