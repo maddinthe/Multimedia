@@ -1,16 +1,50 @@
-header h1{
-    color: yellow;
-    background-color: red;
+#site{
+    border: solid black 1px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-article h1{
-    color: red;
-    background-color: yellow;
+div>header>h1{
+    text-align: center;
+    background-color: lightgrey;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 
-
-footer{
-    color: white;
-    background-color: black;
+li{
+    background-color: lightgrey;
+    display: inline-block;
+    padding: 15px;
+    width: 15%;
+    text-align: center;
+    border: solid black 1px;
+    margin: 5px;
+    margin-left: 0;
 }
+
+section{
+    background-color: lightgrey;
+    display: inline-block;
+    width: 80%;
+    margin: 15px;
+    margin-top: 0;
+}
+article{
+    margin-left: 15px;
+}
+aside{
+    vertical-align: top;
+    background-color: lightgrey;
+    display: inline-block;
+    width: 15%;
+}
+
+div>footer{
+    text-align: center;
+    background-color: lightgrey;
+    margin-top: 15px;
+}
+
 

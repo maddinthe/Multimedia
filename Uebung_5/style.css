@@ -1,24 +1,28 @@
 div{
     border: solid black 1px;
     text-align: center;
-    padding: 1em;
+    padding: 1%;
     margin: 15px;
+}
+p{
+    text-align: justify;
+    overflow: hidden;
+
 }
 div div{
     background-color: green;
     border: solid red 2px;
     border-radius: 10px;
-    margin: 15px;
-
     padding: 5px;
+}
+img{
+    width: 5%;
 }
 #links{
     float: left;
-    width: 2em;
 }
 #rechts{
     float: right;
-    width: 2em;
 }
 
 #m80{
@@ -30,9 +34,9 @@ div div{
     width: 48%;
     /*display: inline-block;*/
     float: right;
-    margin: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 0.1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 #m60{
     width: 60%;
