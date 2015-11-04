@@ -9,42 +9,52 @@
 div>header>h1{
     text-align: center;
     background-color: lightgrey;
-    margin-bottom: 15px;
+    margin-bottom: 1%;
     margin-top: 0;
+    padding: 1%;
+}
+ul{
+    padding: 0;
+    margin: 0;
 }
 
 li{
     background-color: lightgrey;
     display: inline-block;
-    padding: 15px;
+    padding: 1%;
     width: 15%;
     text-align: center;
     border: solid black 1px;
-    margin: 5px;
-    margin-left: 0;
+    margin: 1%;
+    margin-left: 1%;
 }
 
 section{
     background-color: lightgrey;
     display: inline-block;
     width: 80%;
-    margin: 15px;
+    margin: 1%;
     margin-top: 0;
 }
 article{
-    margin-left: 15px;
+    margin-left: 1%;
 }
 aside{
     vertical-align: top;
     background-color: lightgrey;
     display: inline-block;
     width: 15%;
+    padding: 1%;
+}
+blockquote{
+    margin: 1%;
+    padding: 1%;
 }
 
 div>footer{
     text-align: center;
     background-color: lightgrey;
-    margin-top: 15px;
+    margin-top: 1%;
 }
 
 
