@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body>div{
+    border: solid black 1px;
+    width: 500px;
+    height: 500px;
+
+}
+div>div{
+    width: 49%;
+    height: 49%;
+    background-color: lightgreen;
+    float: left;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: auto;
+
+}

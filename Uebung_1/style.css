@@ -1,63 +1,62 @@
-
-
-#site{
-    border: solid black 1px;
-    width: 100%;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div>header>h1{
-    text-align: center;
-    background-color: lightgrey;
-    margin-bottom: 1%;
-    margin-top: 0;
-    padding: 1%;
-}
-ul{
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
+}
+
+div>header,div>footer{
+    text-align: center;
+    background-color: lightgray;
+    padding: 1%;
+
+}
+body>div{
+    border: solid black 1px;
+    margin: 1% auto;
+    width: 800px;
+
 }
 
 li{
-    background-color: lightgrey;
-    display: inline-block;
-    padding: 1%;
+    background-color: lightgray;
+    border: solid black 1px;
+    list-style: none;
     width: 20%;
     text-align: center;
-    border: solid black 1px;
-    margin: 1%;
-    margin-left: 1%;
-    margin-top: 0;
+    float: left;
+    margin: 1% 0 1% 1%;
 }
+
+a{
+    display: block;
+    padding: 5% 0;
+    text-decoration: none;
+    color: black;
+}
+
+
 
 section{
-    background-color: lightgrey;
-    display: inline-block;
-    width: 80%;
+    background-color: lightgray;
+    width: 70%;
+    float: left;
     margin: 1%;
-    margin-top: 0;
-}
-article{
-    margin-left: 1%;
+    padding: 2%;
 }
 aside{
-    vertical-align: top;
-    background-color: lightgrey;
-    display: inline-block;
-    width: 15%;
-    padding: 1%;
+    width: 19%;
+    background-color: lightgray;
+    float: left;
+    margin: 1% 0;
+    padding: 2%;
 }
-blockquote{
-    margin: 1%;
-    padding: 1%;
-}
-
 div>footer{
-    text-align: center;
-    background-color: lightgrey;
-    margin-top: 1%;
+    clear: both;
 }
+section header{
+    margin: 1.5%;
 
+}
+section footer{
+    margin: 1.5% 0 6%;
+}
 
