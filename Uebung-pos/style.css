@@ -1,21 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    height: 2000px;
 }
-
-body>div{
-    border: solid black 1px;
+p{
+    padding-top: 40%;
+    font-size: larger;
+}
+.quadrate{
     width: 500px;
     height: 500px;
+    border: red solid 2px;
+}
+#eins:hover,#zwei:hover,#drei:hover,#vier:hover{
+    background-color: blue;
+    z-index: 500;
+}
+
+#eins {
+    z-index: 1;
+    position: relative;
+    /*bottom: 50px;*/
+    left: 50px;
+    width: 240px;
+    height: 240px;
+    border: black solid 2px;
+    float: left;
+    margin: 3px;
+    background-color: green;
+    text-align: center;
 
 }
-div>div{
-    width: 49%;
-    height: 49%;
-    background-color: lightgreen;
+#zwei {
+    z-index: 2;
+    position: relative;
+    bottom: -50px;
+    left: -50px;
+    width: 240px;
+    height: 240px;
+    border: black solid 2px;
     float: left;
-    border: solid black 1px;
-    border-radius: 5px;
-    margin: auto;
+    margin: 3px;
+    text-align: center;
+    background-color: green;
+}
+#drei {
+    z-index: 3;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+    width: 240px;
+    height: 240px;
+    border: black solid 2px;
+    float: left;
+    margin: 3px;
+    text-align: center;
+    background-color: green;
+}
+#vier {
+    z-index: 4;
+    position: relative;
+    /*bottom: -50px;*/
+    left: -60px;
+    width: 240px;
+    height: 240px;
+    float: left;
+    border: black solid 2px;
+    margin: 3px;
+    text-align: center;
+    background-color: green;
 
 }
