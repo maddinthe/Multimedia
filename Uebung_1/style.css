@@ -1,11 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: fantasy;
 }
+
+.color-primary-0 { color: #226666 }	/* Main Primary color */
+.color-primary-1 { color: #009F9F }
+.color-primary-2 { color: #068181 }
+.color-primary-3 { color: #2F4B4B }
+.color-primary-4 { color: #2C3030 }
+.color-primary-0b { background-color: #226666 }	/* Main Primary color */
+.color-primary-1b { background-color: #009F9F }
+.color-primary-2b { background-color: #068181 }
+.color-primary-3b { background-color: #2F4B4B }
+.color-primary-4b { background-color: #2C3030 }
+
+
 
 div>header,div>footer{
     text-align: center;
-    background-color: lightgray;
     padding: 1%;
 
 }
@@ -17,7 +30,7 @@ body>div{
 }
 
 li{
-    background-color: lightgray;
+
     border: solid black 1px;
     list-style: none;
     width: 20%;
@@ -36,7 +49,6 @@ a{
 
 
 section{
-    background-color: lightgray;
     width: 70%;
     float: left;
     margin: 1%;
@@ -44,7 +56,6 @@ section{
 }
 aside{
     width: 19%;
-    background-color: lightgray;
     float: left;
     margin: 1% 0;
     padding: 2%;

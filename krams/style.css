@@ -1,0 +1,65 @@
+body{
+
+    background:lightcoral url("verlauf.png");
+}
+
+.quadrate{
+    width: 351px;
+    height: 346px;
+    border: black solid 1px;
+    margin: 70px auto;
+}
+div>div{
+    background: url("button.png")
+}
+
+.quadrate div{
+    background-color: lightgreen;
+    width: 100px;
+    height: 70px;
+    border: silver solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 200%;
+    padding-top: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.quadrate div:hover{
+    background-color: orange;
+    color: blue;
+}
+
+#d1:hover{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+#d1{
+    transition: transform 1s
+}
+
+#d2{
+    transition: all 2s;
+}
+
+#d3:hover{
+    -webkit-transform: scale(3,1.5);
+}
+#d3{
+    transition: all 3s;
+}
+
+#d4:hover{
+    width: 336px;
+    height: 188px;
+}
+
+#d4{
+    transition: width 2s, height 3s 2s;
+}
