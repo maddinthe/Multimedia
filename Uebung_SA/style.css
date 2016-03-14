@@ -48,3 +48,26 @@ footer{
     background: steelblue;
     padding: 1.0416666666666665%; /* 10 / 960 */
 }
+@media screen and (max-width: 750px){
+    *{
+        font-size: 2vw;
+    }
+    aside{
+        margin-top:0 ;
+        width: 98%;
+        float: left;
+        /*margin-right: 1.0416666666666665%; /!* 10 / 960 *!/*/
+        margin-bottom: 1.0416666666666665%; /* 10 / 960 */
+
+    }
+    section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    img{
+        display: none;
+
+}
+}
